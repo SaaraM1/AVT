@@ -71,7 +71,7 @@
   
   function createElement(index) 
     {
-        var element = $('<div>',{id: 'kysymys'});
+        var element = $('<div>',{id: 'question'});
         var header = $('<h2>Question No. ' + (index + 1) + ' :</h2>');
         element.append(header);
 
