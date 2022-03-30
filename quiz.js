@@ -1,43 +1,43 @@
 (function() 
  {
   var allQuestions = [{
-    question: "Haluatko tehdä töitä numeroiden parissa?",
+    kysymys: "Haluatko tehdä töitä numeroiden parissa?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 2
   }, {
-    question: Haluatko tehdä töitä lasten ja nuorten parissa?",
+    kysymys: Haluatko tehdä töitä lasten ja nuorten parissa?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 3
   }, {
-    question: Pidätkö vanhusten ja sairaiden auttamisesta?",
+    kysymys: Pidätkö vanhusten ja sairaiden auttamisesta?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 1
   },{
-    question: "Suojeletko luontoa ja pidät huolta ympäristöstä?",
+    kysymys: "Suojeletko luontoa ja pidät huolta ympäristöstä?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 0
   }, {
-    question: "Oletko palveluhenkinen ja pidät työskentelystä erilaisten ihmisten kanssa?",
+    kysymys: "Oletko palveluhenkinen ja pidät työskentelystä erilaisten ihmisten kanssa?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 1
   },{
-    question: "Pidätkö rakentamisesta ja haluat nähdä käsiesi työn jäljen?",
+    kysymys: "Pidätkö rakentamisesta ja haluat nähdä käsiesi työn jäljen?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 0
   },{
-    question: "Pidätkö ruoanlaitosta?",
+    kysymys: "Pidätkö ruoanlaitosta?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 0
   },{
-    question: "Oletko luova, taiteellinen ja/tai musikaalinen?",
+    kysymys: "Oletko luova, taiteellinen ja/tai musikaalinen?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 3
   },{
-    question: "Vietätkö mielelläsi paljon aikaa tietokoneen ääressä?",
+    kysymys: "Vietätkö mielelläsi paljon aikaa tietokoneen ääressä?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 2
   },{
-    question: "Oletko kielellisesti lahjakas ja pidät uusien kielten oppimisesta?",
+    kysymys: "Oletko kielellisesti lahjakas ja pidät uusien kielten oppimisesta?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 0
     }];
@@ -148,7 +148,7 @@
             correct++;
           }
         }
-        score.append('You scored ' + correct + ' out of ' +allQuestions.length);
+        score.append('Sait ' + correct + ' pistettä ' +allQuestions.length + 'stä, joten kannaattaa hakea https://www.keuda.fi/koulutukset/tieto-ja-viestintatekniikan-perustutkinto/');
         return score;
   }
 })();
