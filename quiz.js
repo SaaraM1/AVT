@@ -1,44 +1,44 @@
 (function() 
  {
   var allQuestions = [{
-    question: "The tree sends downroots from its branches to the soil is know as:",
-    options: ["Oak", "Pine", "Banyan", "Palm"],
+    question: "Haluatko tehdä töitä numeroiden parissa?",
+    options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 2
   }, {
-    question: "Electric bulb filament is made of",
-    options: ["Copper", "Aluminum", "lead", "Tungsten"],
+    question: "Pidätkö suunnittelusta, organisoinnista ja järjestyksen luomisesta?",
+    options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 3
   }, {
-    question: "Non Metal that remains liquid at room temprature is",
-    options: ["Phophorous", "Bromine", "Clorine","Helium"],
+    question: "Ovatko säännöt ja lait mielestäsi tärkeitä?",
+    options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 1
   },{
-    question: "Which of the following is used in Pencils ?",
-    options: ["Graphite", "Silicon", "Charcoal", "Phosphorous"],
+    question: "Haluatko tehdä töitä henkilöstöhallinnon- ja kysymysten parissa?",
+    options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 0
   }, {
-    question: "Chemical formula of water ?",
-    options: ["NaA1O2", "H2O", "Al2O3", "CaSiO3"],
+    question: "Oletko palveluhenkinen ja pidät työskentelystä erilaisten ihmisten kanssa?",
+    options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 1
   },{
-    question: "The gas filled in electric bulb is ?",
-    options: ["Nitrogen", "Hydrogen", "Carbon Dioxide", "Oxygen"],
+    question: "Pidätkö rakentamisesta ja haluat nähdä käsiesi työn jäljen?",
+    options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 0
   },{
-    question: "Whashing soda is the comman name for",
-    options: ["Sodium Carbonate", "Calcium Bicarbonate", "Sodium Bicarbonate", "Calcium Carbonate"],
+    question: "Pidätkö ruoanlaitosta?",
+    options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 0
   },{
-    question: "Which gas is not known as green house gas ?",
-    options: ["Methane", "Nitrous oxide", "Carbon Dioxide", "Hydrogen"],
+    question: "Oletko luova, taiteellinen ja/tai musikaalinen?",
+    options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 3
   },{
-    question: "The hardest substance availabe on earth is",
-    options: ["Gold", "Iron", "Diamond", "Platinum"],
+    question: "Haaveiletko viestinnän ja tiedottamisen parissa työskentelystä?",
+    options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 2
   },{
-    question: "Used as a lubricant",
-    options: ["Graphite", "Silica", "Iron Oxide", "Diamond"],
+    question: "Oletko kielellisesti lahjakas ja pidät uusien kielten oppimisesta?",
+    options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 0
     }];
   
@@ -53,7 +53,7 @@
         chooseOption();
         if (isNaN(selectOptions[quesCounter])) 
         {
-            alert('Please select an option !');
+            alert('Valitse jompikumpi');
         } 
         else 
         {
