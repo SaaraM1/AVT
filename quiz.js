@@ -5,15 +5,15 @@
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 2
   }, {
-    question: "Pidätkö suunnittelusta, organisoinnista ja järjestyksen luomisesta?",
+    question: Haluatko tehdä töitä lasten ja nuorten parissa?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 3
   }, {
-    question: "Ovatko säännöt ja lait mielestäsi tärkeitä?",
+    question: Pidätkö vanhusten ja sairaiden auttamisesta?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 1
   },{
-    question: "Haluatko tehdä töitä henkilöstöhallinnon- ja kysymysten parissa?",
+    question: "Suojeletko luontoa ja pidät huolta ympäristöstä?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 0
   }, {
@@ -33,7 +33,7 @@
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 3
   },{
-    question: "Haaveiletko viestinnän ja tiedottamisen parissa työskentelystä?",
+    question: "Vietätkö mielelläsi paljon aikaa tietokoneen ääressä?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 2
   },{
