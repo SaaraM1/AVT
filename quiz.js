@@ -2,11 +2,11 @@
  {
   var allQuestions = [{
     question: "Haluatko tehdä töitä numeroiden parissa?",
-    options: ["Oak", "Pine", "Banyan", "Palm"],
+    options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 2
   }, {
     question: Haluatko tehdä töitä lasten ja nuorten parissa?",
-    options: ["Copper", "Aluminum", "lead", "Tungsten"],
+    options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 3
   }, {
     question: Pidätkö vanhusten ja sairaiden auttamisesta?",
