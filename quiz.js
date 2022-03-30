@@ -1,43 +1,43 @@
 (function() 
  {
   var allQuestions = [{
-    kysymys: "Haluatko tehdä töitä numeroiden parissa?",
+    question: "Haluatko tehdä töitä numeroiden parissa?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 2
   }, {
-    kysymys: Haluatko tehdä töitä lasten ja nuorten parissa?",
+    question: Haluatko tehdä töitä lasten ja nuorten parissa?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 3
   }, {
-    kysymys: Pidätkö vanhusten ja sairaiden auttamisesta?",
+    question: Pidätkö vanhusten ja sairaiden auttamisesta?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 1
   },{
-    kysymys: "Suojeletko luontoa ja pidät huolta ympäristöstä?",
+    question: "Suojeletko luontoa ja pidät huolta ympäristöstä?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 0
   }, {
-    kysymys: "Oletko palveluhenkinen ja pidät työskentelystä erilaisten ihmisten kanssa?",
+    question: "Oletko palveluhenkinen ja pidät työskentelystä erilaisten ihmisten kanssa?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 1
   },{
-    kysymys: "Pidätkö rakentamisesta ja haluat nähdä käsiesi työn jäljen?",
+    question: "Pidätkö rakentamisesta ja haluat nähdä käsiesi työn jäljen?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 0
   },{
-    kysymys: "Pidätkö ruoanlaitosta?",
+    question: "Pidätkö ruoanlaitosta?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 0
   },{
-    kysymys: "Oletko luova, taiteellinen ja/tai musikaalinen?",
+    question: "Oletko luova, taiteellinen ja/tai musikaalinen?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 3
   },{
-    kysymys: "Vietätkö mielelläsi paljon aikaa tietokoneen ääressä?",
+    question: "Vietätkö mielelläsi paljon aikaa tietokoneen ääressä?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 2
   },{
-    kysymys: "Oletko kielellisesti lahjakas ja pidät uusien kielten oppimisesta?",
+    question: "Oletko kielellisesti lahjakas ja pidät uusien kielten oppimisesta?",
     options: ["Kyllä", "Jonkin verran", "Ehkä", "Ei"],
     answer: 0
     }];
